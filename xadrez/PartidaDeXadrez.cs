@@ -135,14 +135,14 @@ namespace xadrez
         public void realizaJogada(Posicao origem, Posicao destino)
         {
             Peca pecaCapturada = executaMovimento(origem, destino);
+            
+            Peca p = tab.peca(destino);
 
             if (estaEmXeque(jogadorAtual))
             {
                 desfazMovimento(origem, destino, pecaCapturada);
                 throw new TabuleiroException("Você não pode se colocar em xeque!");
             }
-
-            Peca p = tab.peca(destino);
 
             // #jogadaespecial promocao
             if (p is Peao)
