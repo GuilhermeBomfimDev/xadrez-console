@@ -41,6 +41,7 @@ namespace xadrez_console
             Console.ForegroundColor = aux;
             Console.WriteLine();
         }
+        
         public static void imprimirConjunto(HashSet<Peca> conjunto)
         {
             Console.Write("[");
@@ -94,7 +95,12 @@ namespace xadrez_console
 
         public static PosicaoXadrez lerPosicaoXadrez()
         {
-            string s = Console.ReadLine();
+            string s = Console.ReadLine()!;
+            if (s == null || s == "")
+            {
+                Console.WriteLine();
+                throw new TabuleiroException("Digite a posição desejada");
+            }
             char coluna = s[0];
             int linha = int.Parse(s[1] + "");
             return new PosicaoXadrez(coluna, linha);
