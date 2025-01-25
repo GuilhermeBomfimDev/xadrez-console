@@ -1,8 +1,3 @@
-O repositório não possui um arquivo README.md existente e a descrição do projeto não está definida no GitHub. Vou gerar um novo README para o projeto "xadrez-console" seguindo o layout fornecido.
-
-### README.md
-
-```markdown
 # Xadrez Console Project
 
 📖 Sobre o Projeto
