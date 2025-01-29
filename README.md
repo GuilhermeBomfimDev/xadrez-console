@@ -1,7 +1,7 @@
 # Xadrez Console Project
 
-📖 Sobre o Projeto
-O Xadrez Console é um jogo de xadrez desenvolvido em C# utilizando conceitos de programação orientada a objetos. Este projeto foi criado para fins educacionais, visando aprimorar o conhecimento em desenvolvimento de jogos e lógica de programação.
+## 📖 Sobre o Projeto
+O Xadrez Console é um jogo de xadrez desenvolvido em C# utilizando conceitos de programação orientada a objetos. Este projeto foi criado a fim de aprender novas técnicas e boas práticas de desenvolvimento, visando aprimorar o conhecimento em desenvolvimento de jogos e lógica de programação. 
 
 🌟 Funcionalidades Principais
 - Jogo de Xadrez:
